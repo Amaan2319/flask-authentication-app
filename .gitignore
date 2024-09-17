@@ -1,0 +1,9 @@
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+db.sqlite  # To ignore the SQLite database file
+instance/
+
+# Ignore Python environment files
+.env
