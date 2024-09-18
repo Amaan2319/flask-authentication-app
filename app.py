@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Configurations
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite"
-app.config["SECRET_KEY"] = "KUPOSHIT"
+app.config["SECRET_KEY"] = ""
 
 # Initialize SQLAlchemy and LoginManager
 db = SQLAlchemy(app)
